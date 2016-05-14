@@ -3,10 +3,10 @@ import { name } from './package.json';
 import pascalCase from 'pascal-case';
 
 const config = {
-  entry: './src',
+  entry: './src/index',
   output: {
     path: `${__dirname}/release/`,
-    filename: `${name}.min.js`,
+    filename: `${name}.js`,
     library: pascalCase(name),
     libraryTarget: 'umd',
   },
