@@ -13,8 +13,8 @@
     "build": "abby webpack --env",
     "dev": "abby dev:*",
     "dev:build": "webpack",
-    "dev:open": "wait-on http://localhost:8080 && opener http://localhost:8080/",
-    "dev:server": "node ./webpack.dev.server.js"
+    "dev:server": "node ./webpack.dev.server.js",
+    "dev:open": "wait-on http://localhost:8080 && opener http://localhost:8080/"
   },
   "abigail": {
     "plugins": {
