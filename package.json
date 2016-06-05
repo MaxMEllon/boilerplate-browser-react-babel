@@ -11,7 +11,7 @@
     "cover": "abby test, report",
     "lint": "eslint src test",
     "build": "abby webpack --env",
-    "dev": "abby dev:*",
+    "dev": "abby dev:* --parse parallel",
     "dev:build": "webpack",
     "dev:server": "node ./webpack.dev.server.js",
     "dev:open": "wait-on http://localhost:8080 && opener http://localhost:8080/"
@@ -24,7 +24,7 @@
     }
   },
   "devDependencies": {
-    "abigail": "^1.6.1",
+    "abigail": "^1.7.1",
     "babel-cli": "^6.6.5",
     "babel-eslint": "^6.0.2",
     "babel-loader": "^6.2.4",
